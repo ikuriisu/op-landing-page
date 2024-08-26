@@ -16,7 +16,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     min-width: 450px;
 }
 
@@ -26,6 +26,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 80px;
 }
 
 .header {
@@ -34,7 +35,6 @@ header {
     align-items: center;
     justify-content: space-between;
     min-height: 56px;
-    padding: 16px;
 }
 
 .header h1 {
@@ -61,7 +61,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px;
+
     gap: 16px;
 }
 
@@ -109,4 +109,36 @@ li a {
 li a {
     text-decoration: none;
 
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 80px;
+}
+
+.info-container h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.illustration {
+    flex: 1;
+    text-align: center;
+
+}
+
+.illustration img {
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    width: 100%;
 }
